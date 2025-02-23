@@ -13,11 +13,11 @@ public class RoundManager : MonoBehaviour
 
     public UnityEvent onRoundEnd;
 
-/*    private static RoundManager _singleton;
+    private static RoundManager _singleton;
 
-    public static RoundManager singleton {
+    public static RoundManager Singleton {
         // When something accesses RoundManager.singleton, it will evaluate and return whatever is in _singleton
-        get => _singleton; //?? (_singleton = new RoundManager());
+        get => _singleton; 
 
         // we can say "private" before "set" to make this read-only to other scripts
         private set {
@@ -30,10 +30,9 @@ public class RoundManager : MonoBehaviour
         }
     }
 
-    private void Awake()
-    {
-        _singleton = this;
-    }*/
+    private void Awake() {
+        Singleton = this;
+    }
 
     public void NewGame()
     {
