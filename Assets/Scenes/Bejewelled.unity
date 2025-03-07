@@ -130,7 +130,7 @@ GameObject:
   - component: {fileID: 1648884698}
   - component: {fileID: 1648884697}
   m_Layer: 0
-  m_Name: ScreenInteractionController
+  m_Name: GameManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -148,7 +148,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8da88fbaf0011245ad0d50b54e22f32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fingerID: -1
 --- !u!4 &1648884698
 Transform:
   m_ObjectHideFlags: 0
